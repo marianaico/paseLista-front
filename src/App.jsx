@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_URL = "https://paselista-back.onrender.com";
+const API_URL = "https://paselista-back.onrender.com/api";
 
 function App() {
   const [rol, setRol] = useState('alumno');
